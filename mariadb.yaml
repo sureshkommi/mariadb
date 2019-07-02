@@ -2,10 +2,10 @@
   hosts : db
   become : yes
   tasks :
-    - name : install mariadb and mariadb server
+    - name : install mariadb and mariadb-server
       yum :
         name : "{{item}}"
         state : latest
-      with_item :
+      loop :
         - mariadb
         - mariadb-server    
