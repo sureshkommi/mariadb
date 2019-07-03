@@ -1,2 +1,5 @@
+[dev]
+tomcat
+
 [db]
 mariadb
