@@ -9,6 +9,7 @@
       loop :
         - mariadb
         - mariadb-server
+
     - name : mariadb start
       service :
         name : started
