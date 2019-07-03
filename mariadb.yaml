@@ -12,6 +12,6 @@
 
     - name : mariadb start
       service :
-        name : started
-        state : latest
+        name : mariadb
+        state : started
             
